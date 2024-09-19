@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <h1>ola, {name}</h1>
       
-      <p>soma: 2 + 2 = {2+2}</p>
+      
     </div>
   )
 }
