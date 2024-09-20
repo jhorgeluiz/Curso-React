@@ -1,4 +1,4 @@
-import './script';
+
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
 
        
-      <h1>ola, {soma}</h1>
+      <h1>ola, {name}</h1>
       <button>butao</button>
       <p>jorgeluiz</p>
       
