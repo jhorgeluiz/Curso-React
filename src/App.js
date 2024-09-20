@@ -1,19 +1,16 @@
+import Aula from './componentes/teste'
 
 import './App.css';
 
+
 function App() {
  
-  
-  const name = 'jorge'
+
   return (
     <div className="App">
+      <Aula />
 
-       
-      <h1>ola, {name}</h1>
-      <button>butao</button>
-      <p>jorgeluiz</p>
       
-
     </div>
   )
 }
