@@ -1,6 +1,5 @@
-import Aula from './componentes/teste'
 
-import './App.css';
+import Pessoa from './componentes/pessoa';
 
 
 function App() {
@@ -8,8 +7,14 @@ function App() {
 
   return (
     <div className="App">
-      <Aula />
-
+      
+      <Pessoa
+      foto="https://via.placeholder.com/150"
+      nome="jorge" 
+      idade="32"
+      profissao="programador"
+      
+      />
       
     </div>
   )
