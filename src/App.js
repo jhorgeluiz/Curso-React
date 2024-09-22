@@ -1,21 +1,14 @@
+import foto from './img/licensed-image.jpg'
 
-import Pessoa from './componentes/pessoa';
 
 
 function App() {
- 
+
 
   return (
     <div className="App">
       
-      <Pessoa
-      foto="https://via.placeholder.com/150"
-      nome="jorge" 
-      idade="32"
-      profissao="programador"
-      
-      />
-      
+      <img src={foto} alt="foto" width={300} />
     </div>
   )
 }
