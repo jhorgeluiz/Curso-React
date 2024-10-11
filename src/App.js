@@ -2,15 +2,14 @@ import foto from './img/licensed-image.jpg'
 
 
 
-function App() {
+
 
 
   return (
     <div className="App">
-      
-      <img src={foto} alt="foto" width={300} />
+      <h1>testando eventos</h1>
     </div>
   )
-}
+
 
 export default App;
