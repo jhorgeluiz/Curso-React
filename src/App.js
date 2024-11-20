@@ -1,15 +1,13 @@
-import foto from './img/licensed-image.jpg'
 
 
-
-
+function App() {
 
 
   return (
-    <div className="App">
-      
+    <div>
+      <p>testando eventos</p>
     </div>
   )
+}
 
-
-export default App;
+export default App
