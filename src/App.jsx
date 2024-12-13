@@ -1,17 +1,16 @@
 import SayMyName from './components/SayMyName'
 import HelloWord from './components/HelloWord'
-function App() {
+import Pessoa from './components/pessoa'
 
-  const url = 'https://via.placeholder.com/150'
+
+function App() {
   return (
     <>
-      <h1>Olá, mundo!</h1>
-      <HelloWord />
-      <img src={url} alt="" />
-      <SayMyName nome = "jorge"/>
-      <SayMyName nome = "luiz"/>
-
-
+    <Pessoa
+    nome = "jorge"
+    idade = "32"
+    profissao = "programador"
+    foto = "https://via.placeholder.com/150"/>
 
     </>
   )
