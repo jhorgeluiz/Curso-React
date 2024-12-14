@@ -1,7 +1,6 @@
-import SayMyName from './components/SayMyName'
-import HelloWord from './components/HelloWord'
+import Evento from './components/Evento'
 import Pessoa from './components/pessoa'
-
+import Form from './components/Form'
 
 function App() {
   return (
@@ -11,6 +10,9 @@ function App() {
     idade = "32"
     profissao = "programador"
     foto = "https://via.placeholder.com/150"/>
+
+    <Evento />
+    <Form />
 
     </>
   )
