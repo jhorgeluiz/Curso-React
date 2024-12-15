@@ -8,7 +8,7 @@ function App() {
     <Pessoa
     nome = "jorge"
     idade = "32"
-    profissao = "programador"
+    profissao = "programador "
     foto = "https://via.placeholder.com/150"/>
 
     <Evento />
