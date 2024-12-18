@@ -16,14 +16,14 @@ function Form() {
         <>
         <div>
             <h1>Meu cadastro</h1>
-            <form onSubmit={cadastrarUsuario}>
+            <form onSubmit={cadastrarUsuario} >
                 <div>
                     <label htmlFor="name">Nome:</label>
                     <input 
                     type="text" 
                     name="name" 
                     id="name" 
-                    placeholder="Digite o seu nome" 
+                    placeholder="Digite o seu" 
                     onChange={(e) => setName(e.target.value)}/>
                 </div>
                 <div>
