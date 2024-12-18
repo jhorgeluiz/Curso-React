@@ -8,10 +8,9 @@ function App() {
     <Pessoa
     nome = "jorge"
     idade = "32"
-    profissao = "progr"
+    profissao = "programador"
     foto = "https://via.placeholder.com/150"/>
 
-    <Evento />
     <Evento />
     <Form />
 
