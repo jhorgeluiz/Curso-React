@@ -1,6 +1,8 @@
-import Evento from './components/Evento'
+
 import Pessoa from './components/pessoa'
-import Form from './components/Form'
+
+import Condicional from './components/Condicional'
+
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
     profissao = "programador"
     foto = "https://via.placeholder.com/150"/>
 
-    <Evento />
-    <Form />
+
+      <h1>Renderizando Condicional</h1>
+      <Condicional />
+
 
     </>
   )
