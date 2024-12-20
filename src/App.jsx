@@ -14,8 +14,8 @@ function App() {
     foto = "https://via.placeholder.com/150"/>
 
 
-      <h1>Renderizando Condicional</h1>
-      <Condicional />
+    <h1>Renderizando Condicional</h1>
+    <Condicional />
 
 
     </>
